@@ -1,0 +1,110 @@
+body {
+background-color: #f8f9fa;
+font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+margin: 0;
+padding: 0;
+min-height: 100vh;
+}
+
+/* Container padding */
+.container {
+padding-top: 3rem;
+padding-bottom: 3rem;
+}
+
+/* Card design */
+.card {
+border-radius: 0.75rem;
+box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+border: none;
+}
+
+/* Navbar styles */
+.navbar {
+border-radius: 0;
+background: linear-gradient(to right, #0d6efd, #6610f2);
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+font-weight: 600;
+font-size: 1.25rem;
+color: white;
+}
+
+.navbar a.btn {
+margin-left: 0.5rem;
+}
+
+/* Form elements */
+.form-control {
+border-radius: 0.5rem;
+padding: 0.75rem 1rem;
+border: 1px solid #ced4da;
+}
+
+.form-label {
+font-weight: 500;
+color: #333;
+}
+
+/* Button styles */
+.btn-primary {
+background: linear-gradient(to right, #0d6efd, #6610f2);
+border: none;
+font-weight: 500;
+}
+
+.btn-outline-light {
+border-color: white;
+color: white;
+font-weight: 500;
+}
+
+.btn-outline-light:hover {
+background-color: white;
+color: #0d6efd;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+font-weight: 600;
+color: #333;
+}
+
+/* Links */
+a {
+color: #0d6efd;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+/* Responsive form container */
+.form-container {
+max-width: 500px;
+margin: auto;
+padding: 2rem;
+}
+
+/* Alert styling */
+.alert {
+border-radius: 0.5rem;
+}
+
+/* Dashboard spacing */
+.dashboard {
+padding-top: 2rem;
+}
+
+.card-title {
+font-size: 1.25rem;
+font-weight: 600;
+}
+
+.card-subtitle {
+font-size: 0.95rem;
+color: #6c757d;
+}
